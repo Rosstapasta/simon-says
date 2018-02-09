@@ -1,1 +1,27 @@
 
+.header {
+    background: rgb(109, 109, 161);
+    height: 100px;
+    width: 100%;
+}
+
+.gameStart {
+    background: rgb(109, 109, 161);
+    height: 140px;
+    width: 100%;
+}
+
+.gameBoard {
+    background: rgb(44, 44, 71);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 10px;
+    
+
+
+}
+

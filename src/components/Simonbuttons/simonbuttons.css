@@ -1,0 +1,51 @@
+.simonBoard {
+    background:rgb(109, 109, 161);
+    position: relative;
+    padding: 40px;
+    height:500px;
+    width:500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    
+   
+    
+   
+} 
+
+.gameButton {
+    background: white;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    
+    
+}
+
+#red {
+    background: red;
+    top: 120px;
+    left: 120px;
+}
+
+#green {
+    background: green;
+    top: 120px;
+    right: 120px;
+}
+
+#yellow {
+    background: yellow;
+    bottom: 120px;
+    right: 120px;
+}
+
+#blue {
+    background: blue;
+    bottom: 120px;
+    left: 120px;
+}
